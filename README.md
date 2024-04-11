@@ -9,4 +9,5 @@ Uses text descriptions for each image based on the class labels.
 Encodes the text descriptions into features.
 Computes the probability scores for each image class using the image features and text features.
 Visualizes the top predicted classes and their probabilities for each image.
+
 Used google palm and langchain and prompted the llm to predict whether an image is of outdoors or indoors for PPE detection using the top 5 predicted class labels.
