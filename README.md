@@ -3,7 +3,8 @@ The CLIP (Contrastive Language-Image Pre-training) model, developed by OpenAI, i
 ![Screenshot 2024-04-11 193532](https://github.com/Deeplearner11/clip_classification/assets/87230145/93aa5052-018d-4862-b80b-21ff58effd68)
 
 Loads the CIFAR-100 dataset containing images with corresponding class labels.
-Due to resource constraint used CIFAR-100 dataset but Places365 would be a better datatset to use 
+Due to resource constraint used CIFAR-100 dataset but Places365 would be a better datatset to use.
+
 Uses text descriptions for each image based on the class labels.
 Encodes the text descriptions into features.
 Computes the probability scores for each image class using the image features and text features.
